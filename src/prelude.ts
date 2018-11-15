@@ -17,3 +17,12 @@ export const isEven = (x) =>
 export const showResult = (x) =>
     `The result is: ${x}`
 ;
+
+export const identity = (x) =>
+    x
+;
+
+export const compose = (f, g) =>
+    (x) =>
+        f(g(x))
+;
