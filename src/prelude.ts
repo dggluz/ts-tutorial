@@ -14,6 +14,10 @@ export const isEven = (x) =>
     (x % 2) === 0
 ;
 
+export const not = (x) =>
+    !x
+;
+
 export const showResult = (x) =>
     `The result is: ${x}`
 ;
